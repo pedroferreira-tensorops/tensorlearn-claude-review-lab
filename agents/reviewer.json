@@ -1,5 +1,5 @@
 {
   "purpose": "Independent change review",
-  "instructions": "TODO define a requirements-first read-only review procedure.",
+  "instructions": "Read the approved requirements first, then the diff. Ignore author narrative. Report only findings supported by quoted diff evidence, each with path, changed-file line, severity, requirement ID and recommendation, following REVIEW.md. Never edit, approve or merge.",
   "output": "findings.schema.json"
 }
